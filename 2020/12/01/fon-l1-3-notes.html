@@ -115,23 +115,24 @@ gives us the more general relation.</p>
 
 <p>We start with this, which is true at steady state:</p>
 
-<p>$Number\ of\ electrons\ in\ channel = electrons/second X time\ spent\ in\ channel$</p>
+<p>#electrons in channel = #electrons/second X time spent in channel</p>
 
 <p>An analogy for this would be the number of PhDs in a university will be equal to the number of
 PhD that enter per year multiplied by the time taken to complete a PhD. For eg, consider that
 50 new students enter a year, and on an average it takes 4 years to complete a PhD. This means, at
 steady state (once all the years are occupied), there are 200 PhD students in the university.</p>
 
-<p>Going back to our conductance formula, current is charge of electrons/second, therefore, number of
-electrons/second = current/charge of electron. The time spent in the channel is t. We defined the
-density of states D as the number of states per energy level. The relevant energy level is qV.
-Therefore on average, we have D*qV/2 electrons in the channel. We divide by 2 because one contact
-is trying to fill the energy level while the other is trying to empty it. So on an average, a
-state will be occupied half the time.</p>
+<p>Returning to our conductance formula, current $I$ is charge of electron * #electrons/second.
+Therefore, #electrons/second = current/charge of electron. 
+The time spent in the channel is t. We defined the
+density of states $D$ as the number of states per energy level. The relevant energy level is $qV$.</p>
 
-<p>So we have,</p>
+<p>Therefore on average, we have $\frac{DqV}{2}$ electrons in the channel. We divide by 2 because one contact
+is trying to fill the energy level while the other is trying to empty it. So on an average, a state will be occupied half the time.</p>
 
-<p>$\frac{DqV}{2} = \frac{I}{q} * t$</p>
+<p>We have,</p>
+
+<p>$\frac{DqV}{2} = \frac{I}{q} t$</p>
 
 <p>Hence the conductance $G=\frac{I}{V}$,</p>
 
@@ -156,7 +157,7 @@ contacts.</p>
 
 <p>Integrating over the entire energy range to get the total number of electrons in the channel:</p>
 
-<p>$\int_{-\infty}^{\infty}\frac{D(E)}{t(E}(f_1(E) - f_2(E)) dE = \frac{I}{q}$</p>
+<p>$\int_{-\infty}^{\infty}\frac{D(E)}{t(E)}(f_1(E) - f_2(E)) dE = \frac{I}{q}$</p>
 
 <p>Here we rearranged the equation so that all the energy dependent components are together.</p>
 
